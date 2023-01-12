@@ -1,0 +1,19 @@
+.brand-gradient {
+  background: #0091ff;
+  background: -webkit-linear-gradient(to top, #0091ff, #0091ff, #32cd4c);
+  background: linear-gradient(to top, #0091ff, #32cd4c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.banner-holder,
+.main-page-header {
+  background-image: url(img/blog.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.custom-nav {
+  backdrop-filter: blur(8px);
+}
